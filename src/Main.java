@@ -25,6 +25,10 @@ public class Student{
     int brIndeksa;
 }
 public class Predmet{
+    Student[] nizStudenata;
+    String imePredmeta;
+    int maxBrStud;
+    
     //privatni atribut niz studenata
     //metode upis i ispis koje primaju referencu na studenta
     //podaci o predmetu su naziv predmeta šifra predmeta i maksimalan broj studenata
